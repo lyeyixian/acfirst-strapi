@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_sections_locations",
+  "info": {
+    "displayName": "Location",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "map": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.map-embed"
+    },
+    "contactInfo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.contact-information"
+    }
+  }
+}

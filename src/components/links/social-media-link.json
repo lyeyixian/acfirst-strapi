@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_links_social_media_links",
+  "info": {
+    "displayName": "Social Media Link"
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    },
+    "newTab": {
+      "type": "boolean"
+    },
+    "socialMedia": {
+      "type": "enumeration",
+      "enum": [
+        "facebook",
+        "whatsapp",
+        "instagram"
+      ]
+    }
+  }
+}

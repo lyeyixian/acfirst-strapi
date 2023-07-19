@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_shared_map_embeds",
+  "info": {
+    "displayName": "Map Embed"
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    }
+  }
+}
