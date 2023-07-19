@@ -9,6 +9,7 @@ services:
     branch: main
     healthCheckPath: /_health
     autoDeploy: false
+    region: singapore
     envVars:
       - key: NODE_VERSION
         value: 16.14.2
@@ -34,3 +35,4 @@ services:
 databases:
   - name: strapi-postgres
     plan: free
+    region: singapore
