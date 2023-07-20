@@ -42,6 +42,8 @@ services:
     buildCommand: npm install && npm run build
     startCommand: npm start
     envVars:
+      - key: NODE_VERSION
+        value: 16.14.2
       - key: STRAPI_URL_BASE
         fromService:
           type: web
