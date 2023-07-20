@@ -44,6 +44,8 @@ services:
     envVars:
       - key: NODE_VERSION
         value: 16.14.2
+      - key: NODE_ENV
+        value: production
       - key: STRAPI_URL_BASE
         fromService:
           type: web
