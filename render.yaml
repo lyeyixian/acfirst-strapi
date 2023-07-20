@@ -36,6 +36,7 @@ services:
     name: acfirst-web
     env: node
     plan: free
+    region: singapore
     repo: https://github.com/lyeyixian/acfirst-web
     branch: main
     buildCommand: npm install && npm run build
