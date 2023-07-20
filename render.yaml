@@ -32,6 +32,21 @@ services:
       - key: APP_KEYS
         generateValue: true
 
+  - type: web
+    name: acfirst-web
+    env: node
+    plan: free
+    repo: https://github.com/lyeyixian/acfirst-web
+    branch: main
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: STRAPI_URL_BASE
+        fromService:
+          type: web
+          name: acfirst-strapi
+          envVarKey: RENDER_EXTERNAL_URL
+
 databases:
   - name: strapi-postgres
     plan: free
