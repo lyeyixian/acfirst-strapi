@@ -10,6 +10,7 @@
     "strapi": "strapi"
   },
   "dependencies": {
+    "@bn-digital/strapi-plugin-field-uuid": "^1.2.12",
     "@strapi/plugin-i18n": "4.11.1",
     "@strapi/plugin-seo": "^1.9.1",
     "@strapi/plugin-users-permissions": "4.11.1",
