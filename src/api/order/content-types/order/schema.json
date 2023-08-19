@@ -4,7 +4,8 @@
   "info": {
     "singularName": "order",
     "pluralName": "orders",
-    "displayName": "Order"
+    "displayName": "Order",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -30,8 +31,12 @@
       "relation": "oneToMany",
       "target": "api::product.product"
     },
-    "message": {
+    "enquiry": {
       "type": "text"
+    },
+    "orderId": {
+      "type": "customField",
+      "customField": "plugin::field-uuid.uuid"
     }
   }
 }
