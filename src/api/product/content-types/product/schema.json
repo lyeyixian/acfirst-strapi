@@ -79,6 +79,11 @@
         "lappato",
         "structuredSurface"
       ]
+    },
+    "similarCode": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::product.product"
     }
   }
 }
