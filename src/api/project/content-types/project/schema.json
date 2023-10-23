@@ -45,6 +45,12 @@
     },
     "date": {
       "type": "date"
+    },
+    "category": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::category.category",
+      "inversedBy": "projects"
     }
   }
 }
