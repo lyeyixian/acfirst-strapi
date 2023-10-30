@@ -64,20 +64,25 @@
       "type": "enumeration",
       "enum": [
         "mm-300x300",
-        "mm-600x600"
+        "mm-300x600",
+        "mm-400x400",
+        "mm-500x500",
+        "mm-600x600",
+        "mm-600x1200",
+        "mm-400x800",
+        "mm-800x800"
       ]
     },
     "surface": {
       "type": "enumeration",
       "enum": [
-        "matt",
-        "satin",
+        "surface",
         "gloss",
+        "matte",
         "polished",
-        "rough",
-        "honed",
-        "lappato",
-        "structuredSurface"
+        "babySkin",
+        "sugarFace",
+        "lappato"
       ]
     },
     "similarCode": {
