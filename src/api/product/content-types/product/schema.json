@@ -44,7 +44,8 @@
       "inversedBy": "products"
     },
     "viewCount": {
-      "type": "integer"
+      "type": "integer",
+      "default": 0
     },
     "coverImg": {
       "type": "media",
