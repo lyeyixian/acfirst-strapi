@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_elements_order_product_details",
+  "info": {
+    "displayName": "Order Product Details"
+  },
+  "options": {},
+  "attributes": {
+    "code": {
+      "type": "string"
+    },
+    "quantity": {
+      "type": "integer"
+    }
+  }
+}

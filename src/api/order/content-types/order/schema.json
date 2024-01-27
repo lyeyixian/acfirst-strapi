@@ -26,17 +26,18 @@
     "name": {
       "type": "string"
     },
-    "products": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::product.product"
-    },
     "enquiry": {
       "type": "text"
     },
     "orderId": {
       "type": "customField",
       "customField": "plugin::field-uuid.uuid"
+    },
+    "productDetails": {
+      "displayName": "Order Product Details",
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.order-product-details"
     }
   }
 }
