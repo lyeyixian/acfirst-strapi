@@ -26,6 +26,7 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::product.product",
+      "private": true,
       "mappedBy": "category"
     },
     "coverImg": {
@@ -43,6 +44,7 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::project.project",
+      "private": true,
       "mappedBy": "category"
     }
   }
